@@ -124,23 +124,23 @@ public class HW1 {
         }
         // if root.left is null or the root.right is null
         // if the root has a missing child return null
-//        if (root.left == null && root.right == null){
-//            root = null;
-//            return root;
-//        }
+        if (root.left == null && root.right == null){
+            root = null;
+            return root;
+        }
 //
-//        root.left = removeLeaves(root.left);// recursively calls the method, removing all left children
-//        root.right = removeLeaves(root.right); // recursively calls the method, removing all right children
+        root.left = removeLeaves(root.left);// recursively calls the method, removing all left children
+        root.right = removeLeaves(root.right); // recursively calls the method, removing all right children
 
-        root.left = null;
-        root.right = null;
+//        root.left = null;
+//        root.right = null;
 
-//        BinaryNode<Integer> treeRoot = null;
-//        if (root.left != null || root.right != null){
-//            treeRoot = root;
-//            return root;
-//        }
-//        return treeRoot;
+        if (root.left != null || root.right != null){
+            root.left = null;
+            root.right = null;
+        }
+//        System.out.println(root.left);
+//        System.out.println(root.right);
 
         //after all left and right subtrees are removed return the tree root.
         return root;
@@ -190,19 +190,19 @@ public class HW1 {
         System.out.println(isSymmetric(nonSymmetricRoot));
 
         System.out.println("\nProblem 6:");
+        BinaryNode<Integer> problem6Tree = new BinaryNode<>(10);
+        problem6Tree.left = new BinaryNode<>(8);
+        problem6Tree.right = new BinaryNode<>(12);
+        problem6Tree.left.left = new BinaryNode<>(7);
+        problem6Tree.left.right = new BinaryNode<>(9);
+        problem6Tree.right.left = new BinaryNode<>(11);
+        problem6Tree.right.right = new BinaryNode<>(13);
+        System.out.println("before removal:");
+        System.out.println(problem6Tree.toString2());
+        removeLeaves(problem6Tree);
+        System.out.println("after removal:");
+        System.out.println(problem6Tree.toString2());
 
-        BinaryNode<Integer> symmetricRoo = new BinaryNode<>(10);
-        symmetricRoo.left = new BinaryNode<>(2);
-        symmetricRoo.right = new BinaryNode<>(2);
-        symmetricRoo.left.left = new BinaryNode<>(3);
-        symmetricRoo.left.right = new BinaryNode<>(4);
-        symmetricRoo.right.left = new BinaryNode<>(4);
-        symmetricRoo.right.right = new BinaryNode<>(3);
-        removeLeaves(symmetricRoo);
-        System.out.println(symmetricRoo.toString2());
-//
-//        System.out.println(removeLeaves(nonSymmetricRoot));
-//        System.out.println(nonSymmetricRoot.toString2());
 
 
     }
