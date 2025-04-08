@@ -1,0 +1,3 @@
+/Users/isabellacorrea/CLionProjects/A1_Operators/cmake-build-debug/CMakeFiles/A1_Operators.dir
+/Users/isabellacorrea/CLionProjects/A1_Operators/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/isabellacorrea/CLionProjects/A1_Operators/cmake-build-debug/CMakeFiles/rebuild_cache.dir
