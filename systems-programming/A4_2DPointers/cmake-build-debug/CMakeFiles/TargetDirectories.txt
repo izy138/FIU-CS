@@ -1,0 +1,3 @@
+/Users/isabellacorrea/CLionProjects/SPA4_2DPointers/cmake-build-debug/CMakeFiles/SPA4_2DPointers.dir
+/Users/isabellacorrea/CLionProjects/SPA4_2DPointers/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/isabellacorrea/CLionProjects/SPA4_2DPointers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

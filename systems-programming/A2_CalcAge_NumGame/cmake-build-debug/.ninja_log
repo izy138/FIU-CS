@@ -1,0 +1,4 @@
+# ninja log v6
+2	185	1738543923935188027	build.ninja	3d3f858a9a3ff377
+1	417	1738543923968355174	CMakeFiles/SPA2_CalcAge_NumGame.dir/CalculateAge.c.o	d75a1d01c3cae10b
+3	418	1738543923970392718	CMakeFiles/SPA2_CalcAge_NumGame.dir/NumGame.c.o	6d5bf7a738c7096d

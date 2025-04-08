@@ -1,0 +1,3 @@
+/Users/isabellacorrea/CLionProjects/SPA5_BinaryTree/cmake-build-debug/CMakeFiles/SPA5_BinaryTree.dir
+/Users/isabellacorrea/CLionProjects/SPA5_BinaryTree/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/isabellacorrea/CLionProjects/SPA5_BinaryTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir
