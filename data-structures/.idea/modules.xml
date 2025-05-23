@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DS_Hashmaps/DS_Hashmaps.iml" filepath="$PROJECT_DIR$/DS_Hashmaps/DS_Hashmaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DS_LinkedLists/DS_LinkedLists.iml" filepath="$PROJECT_DIR$/DS_LinkedLists/DS_LinkedLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DS_TreeSet_RepaymentSystem/DS_TreeSet_RepaymentSystem.iml" filepath="$PROJECT_DIR$/DS_TreeSet_RepaymentSystem/DS_TreeSet_RepaymentSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Data_Structures.iml" filepath="$PROJECT_DIR$/.idea/Data_Structures.iml" />
+    </modules>
+  </component>
+</project>

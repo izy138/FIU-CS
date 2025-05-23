@@ -1,7 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-
 class Account implements Comparable<Account>{
     String name;
     int balance;
