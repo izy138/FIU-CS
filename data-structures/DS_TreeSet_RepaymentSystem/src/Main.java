@@ -53,7 +53,7 @@ public class Main {
         }
 
         // set file to output results to
-        PrintWriter p = new PrintWriter("src/output.csv");
+        PrintWriter p = new PrintWriter("`~src/output.csv");
 
         // while the tree set has accounts in it:
         while (!accountsBST.isEmpty()) {
