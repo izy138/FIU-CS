@@ -1,0 +1,10 @@
+========================================
+TEST CASE 7: Multiple Arrivals During Execution (TQ=4)
+Purpose: Multiple processes arrive while first process is executing within its time quantum
+========================================
+Process     Burst Time    Priority    Arrival Time
+======================================================
+P1          8             0           0
+P2          3             0           2
+P3          4             0           3
+P4          2             0           4

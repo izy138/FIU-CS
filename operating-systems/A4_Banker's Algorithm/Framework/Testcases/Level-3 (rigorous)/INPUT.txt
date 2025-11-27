@@ -1,0 +1,50 @@
+##############################################################################################################
+# Banker's Algorithm Test Cases – MODERATE LEVEL
+# Test Types: SAFETY_CHECK or REQUEST
+# REQUEST format: <ThreadID, R0, R1, R2, ...>
+# Negative values in a REQUEST (e.g., 2 -2 -1 -1) indicate resource release by the thread T2.
+# Example: Thread 2 releases 2 units of R0, 1 unit of R1, and 1 unit of R2.
+# Lines starting with '#' are comments.
+##############################################################################################################
+
+# Test Case 1: Valid request
+REQUEST 0 2 1 0
+
+# Test Case 2: Request exceeds need (request denied!)
+REQUEST 1 3 3 3
+
+# Test Case 3: Insufficient resources (request denied!)
+REQUEST 2 4 1 0
+
+# Test Case 4: Request would cause unsafe state (request denied!)
+REQUEST 3 1 1 0
+
+# EDGE Test Case 5: Resource release (request denied - trying to release more than allocated!)
+REQUEST 2 -7 -1 -1
+
+# Test Case 6: Resource release (T2 is releasing all of its allocated resources)
+REQUEST 2 -2 -1 -1
+
+# Test Case 7: Previously denied request now possible
+REQUEST 3 1 1 0
+
+# Test Case 8: System safety check after all operations
+SAFETY_CHECK
+
+# Test Case 9: Resource exhaustion test (exhausting resource R0 and R1)
+REQUEST 1 2 2 2
+
+# Test Case 10: System safety check after all operations
+SAFETY_CHECK
+
+# EDGE Test Case 11: Zero request (denied due to being unreasonable !) 
+REQUEST 0 0 0 0
+
+# Test Case 12: Resource release (T1 is releasing all of its allocated resources)
+REQUEST 1 -4 -3 -3
+
+# Test Case 13: Maximum possible request (T4 requests maximum allowed resources)
+REQUEST 4 1 1 2
+
+# Test Case 14: System safety check after all operations
+SAFETY_CHECK

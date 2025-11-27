@@ -1,0 +1,55 @@
+============================================
+First-Come-First-Served (FCFS)
+PID      Turnaround_Time      Waiting_Time
+1        8                    0
+2        11                   7
+3        19                   10
+4        23                   18
+Average Turnaround Time: 15.25
+Average Waiting Time: 8.75
+============================================
+Shortest-Job-First (SJF)
+PID      Turnaround_Time      Waiting_Time
+1        8                    0
+2        11                   7
+3        24                   15
+4        14                   9
+Average Turnaround Time: 14.25
+Average Waiting Time: 7.75
+============================================
+Shortest-Remaining_Time-First (SRTF)
+PID      Turnaround_Time      Waiting_Time
+1        17                   9
+2        4                    0
+3        24                   15
+4        7                    2
+Average Turnaround Time: 13.00
+Average Waiting Time: 6.50
+============================================
+Round-Robin (RR)
+PID      Turnaround_Time      Waiting_Time
+1        23                   15
+2        15                   11
+3        24                   15
+4        18                   13
+Average Turnaround Time: 20.00
+Average Waiting Time: 13.50
+============================================
+PRIORITY_NON_PREEMPTIVE
+PID      Turnaround_Time      Waiting_Time
+1        8                    0
+2        11                   7
+3        24                   15
+4        14                   9
+Average Turnaround Time: 14.25
+Average Waiting Time: 7.75
+============================================
+PRIORITY_PREEMPTIVE_WITH_RR
+PID      Turnaround_Time      Waiting_Time
+1        23                   15
+2        4                    0
+3        24                   15
+4        7                    2
+Average Turnaround Time: 14.50
+Average Waiting Time: 8.00
+============================================

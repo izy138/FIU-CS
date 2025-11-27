@@ -1,0 +1,29 @@
+Starting TCP Command Server...
+Server: Listening on port 8080...
+Server: Waiting for client connection...
+Server: Connected to client 127.0.0.1:XXXXX
+Server: Received command: invalidcommand
+Server: Child <PID> started for command: invalidcommand
+Child <PID>: Executing command: invalidcommand
+sh: 1: invalidcommand: not found
+Server: Child <PID> completed
+Server: Received command: eco hello
+Server: Child <PID> started for command: eco hello
+Child <PID>: Executing command: eco hello
+sh: 1: eco: not found
+Server: Child <PID> completed
+Server: Received command: /bin/nosuchcommand
+Server: Child <PID> started for command: /bin/nosuchcommand
+Child <PID>: Executing command: /bin/nosuchcommand
+sh: 1: /bin/nosuchcommand: not found
+Server: Child <PID> completed
+Server: Client 127.0.0.1:XXXXX disconnected
+Server: Shutting down
+Client: Connected to server
+Client: Sending command: invalidcommand
+Client: Received: Command 'invalidcommand' failed
+Client: Sending command: eco hello
+Client: Received: Command 'eco hello' failed
+Client: Sending command: /bin/nosuchcommand
+Client: Received: Command '/bin/nosuchcommand' failed
+Client: Disconnected from server

@@ -1,0 +1,250 @@
+STACK: Pushed into stack: 10
+STACK: Pushed into stack: 20
+STACK: Pushed into stack: 30
+STACK: Pushed into stack: 40
+STACK: Pushed into stack: 50
+STACK: Pushed into stack: 60
+STACK: Pushed into stack: 70
+STACK: Pushed into stack: 80
+STACK: Pushed into stack: 90
+STACK: Pushed into stack: 100
+STACK: Stack full: No
+STACK: Stack size: 10
+STACK: Stack elements from top to bottom: 100 90 80 70 60 50 40 30 20 10
+STACK: Pushed into stack: 110
+STACK: Top of stack: 110
+STACK: Top of stack: 110
+STACK: Popped from stack: 110
+STACK: Popped from stack: 100
+STACK: Popped from stack: 90
+STACK: Popped from stack: 80
+STACK: Popped from stack: 70
+STACK: Stack size: 6
+STACK: Stack empty: No
+STACK: Stack full: No
+STACK: Stack elements from top to bottom: 60 50 40 30 20 10
+STACK: Popped from stack: 60
+STACK: Popped from stack: 50
+STACK: Popped from stack: 40
+STACK: Popped from stack: 30
+STACK: Popped from stack: 20
+STACK: Stack size: 1
+STACK: Stack empty: No
+STACK: Stack elements from top to bottom: 10
+STACK: Popped from stack: 10
+STACK: Error - Stack Empty
+STACK: Pushed into stack: 11
+STACK: Pushed into stack: 22
+STACK: Stack elements from top to bottom: 22 11
+STACK: Popped from stack: 22
+STACK: Pushed into stack: 33
+STACK: Top of stack: 33
+STACK: Stack size: 2
+STACK: Stack empty: No
+STACK: Stack full: No
+STACK: Stack elements from top to bottom: 33 11
+STACK: Popped from stack: 33
+STACK: Popped from stack: 11
+STACK: Stack empty: Yes
+STACK: Error - Stack Empty
+QUEUE: Enqueued: 5
+QUEUE: Enqueued: 15
+QUEUE: Enqueued: 25
+QUEUE: Enqueued: 35
+QUEUE: Enqueued: 45
+QUEUE: Enqueued: 55
+QUEUE: Enqueued: 65
+QUEUE: Enqueued: 75
+QUEUE: Enqueued: 85
+QUEUE: Enqueued: 95
+QUEUE: Queue full: No
+QUEUE: Queue size: 10
+QUEUE: Queue elements from front to rear: 5 15 25 35 45 55 65 75 85 95
+QUEUE: Enqueued: 105
+QUEUE: Front of queue: 5
+QUEUE: Front of queue: 5
+QUEUE: Dequeued: 5
+QUEUE: Dequeued: 15
+QUEUE: Dequeued: 25
+QUEUE: Dequeued: 35
+QUEUE: Dequeued: 45
+QUEUE: Queue size: 6
+QUEUE: Queue empty: No
+QUEUE: Queue full: No
+QUEUE: Queue elements from front to rear: 55 65 75 85 95 105
+QUEUE: Dequeued: 55
+QUEUE: Dequeued: 65
+QUEUE: Dequeued: 75
+QUEUE: Dequeued: 85
+QUEUE: Dequeued: 95
+QUEUE: Queue size: 1
+QUEUE: Queue empty: No
+QUEUE: Queue elements from front to rear: 105
+QUEUE: Dequeued: 105
+QUEUE: Error - Queue Empty
+QUEUE: Enqueued: 10
+QUEUE: Enqueued: 20
+QUEUE: Enqueued: 30
+QUEUE: Enqueued: 40
+QUEUE: Queue elements from front to rear: 10 20 30 40
+QUEUE: Dequeued: 10
+QUEUE: Dequeued: 20
+QUEUE: Enqueued: 50
+QUEUE: Enqueued: 60
+QUEUE: Queue size: 4
+QUEUE: Front of queue: 30
+QUEUE: Queue empty: No
+QUEUE: Queue full: No
+QUEUE: Queue elements from front to rear: 30 40 50 60
+QUEUE: Dequeued: 30
+QUEUE: Dequeued: 40
+QUEUE: Dequeued: 50
+QUEUE: Dequeued: 60
+QUEUE: Queue empty: Yes
+QUEUE: Error - Queue Empty
+LIST: Node inserted is: 100
+LIST: Node inserted is: 200
+LIST: Node inserted is: 300
+LIST: Node inserted is: 400
+LIST: Node inserted is: 500
+LIST: List nodes are: 100 200 300 400 500
+LIST: List empty: No
+LIST: Node 100 found
+LIST: Node 300 found
+LIST: Node 500 found
+LIST: Node 600 not found
+LIST: Node deleted is: 300
+LIST: List nodes are: 100 200 400 500
+LIST: Node deleted is: 100
+LIST: List nodes are: 200 400 500
+LIST: Node deleted is: 500
+LIST: List nodes are: 200 400
+LIST: Node deleted is: 700
+LIST: List nodes are: 200 400
+LIST: Node deleted is: 200
+LIST: Node deleted is: 400
+LIST: List empty: Yes
+LIST: Node 200 not found
+LIST: List is empty
+LIST: Node deleted is: 200
+LIST: Node inserted is: 1000
+LIST: Node inserted is: 2000
+LIST: List nodes are: 1000 2000
+LIST: List empty: No
+LIST: List has been emptied
+LIST: List empty: Yes
+LIST: Node 1000 not found
+LIST: Node inserted is: 3000
+LIST: List nodes are: 3000
+LIST: List has been emptied
+HEAP: Inserted element: value=50, priority=5
+HEAP: Inserted element: value=30, priority=3
+HEAP: Inserted element: value=20, priority=2
+HEAP: Inserted element: value=40, priority=4
+HEAP: Inserted element: value=10, priority=1
+HEAP: Inserted element: value=60, priority=6
+HEAP: Inserted element: value=70, priority=7
+HEAP: Inserted element: value=80, priority=8
+HEAP: Heap empty: No
+HEAP: Top of heap: value=10, priority=1
+HEAP: Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->10, p->1; i->[1] v->20, p->2; i->[2] v->30, p->3; i->[3] v->50, p->5; i->[4] v->40, p->4; i->[5] v->60, p->6; i->[6] v->70, p->7; i->[7] v->80, p->8;
+HEAP: Extracted min: value=10, priority=1
+HEAP: Top of heap: value=20, priority=2
+HEAP: Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->20, p->2; i->[1] v->40, p->4; i->[2] v->30, p->3; i->[3] v->50, p->5; i->[4] v->80, p->8; i->[5] v->60, p->6; i->[6] v->70, p->7;
+HEAP: Extracted min: value=20, priority=2
+HEAP: Top of heap: value=30, priority=3
+HEAP: Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->30, p->3; i->[1] v->40, p->4; i->[2] v->60, p->6; i->[3] v->50, p->5; i->[4] v->80, p->8; i->[5] v->70, p->7;
+HEAP: Decreased priority of element at index 3 to 0
+HEAP: Top of heap: value=50, priority=0
+HEAP: Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->50, p->0; i->[1] v->30, p->3; i->[2] v->60, p->6; i->[3] v->40, p->4; i->[4] v->80, p->8; i->[5] v->70, p->7;
+HEAP: Error - New priority is higher than current
+HEAP: Top of heap: value=50, priority=0
+HEAP: Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->50, p->0; i->[1] v->30, p->3; i->[2] v->60, p->6; i->[3] v->40, p->4; i->[4] v->80, p->8; i->[5] v->70, p->7;
+HEAP: Removed element at index 0
+HEAP: Top of heap: value=30, priority=3
+HEAP: Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->30, p->3; i->[1] v->40, p->4; i->[2] v->60, p->6; i->[3] v->70, p->7; i->[4] v->80, p->8;
+HEAP: Removed element at index 2
+HEAP: Top of heap: value=30, priority=3
+HEAP: Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->30, p->3; i->[1] v->40, p->4; i->[2] v->80, p->8; i->[3] v->70, p->7;
+HEAP: Extracted min: value=30, priority=3
+HEAP: Extracted min: value=40, priority=4
+HEAP: Extracted min: value=70, priority=7
+HEAP: Extracted min: value=80, priority=8
+HEAP: Heap empty: Yes
+HEAP: Error - Heap Empty
+HEAP: Error - Heap Empty
+HEAP: Inserted element: value=25, priority=2
+HEAP: Inserted element: value=15, priority=1
+HEAP: Heap empty: No
+HEAP: Top of heap: value=15, priority=1
+HEAP: Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->15, p->1; i->[1] v->25, p->2;
+HEAP: Extracted min: value=15, priority=1
+HEAP: Inserted element: value=35, priority=3
+HEAP: Decreased priority of element at index 0 to 0
+HEAP: Top of heap: value=25, priority=0
+HEAP: Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->25, p->0; i->[1] v->35, p->3;
+HEAP: Removed element at index 0
+HEAP: Heap empty: No
+HEAP: Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->35, p->3;
+BITMAP: Initialized bitmap with 16 bits
+BITMAP: 00000000 00000000
+BITMAP: Bitmap empty: Yes
+BITMAP: Bitmap size: 16 bits
+BITMAP: Set bit 0
+BITMAP: Set bit 15
+BITMAP: Bit 0 is set
+BITMAP: Bit 15 is set
+BITMAP: 10000000 00000001
+BITMAP: Error - Invalid bit index -1
+BITMAP: Error - Invalid bit index 16
+BITMAP: Set bit -1
+BITMAP: Set bit 16
+BITMAP: Cleared bit -1
+BITMAP: Cleared bit 16
+BITMAP: Set bit 1
+BITMAP: Set bit 3
+BITMAP: Set bit 5
+BITMAP: Set bit 7
+BITMAP: Set bit 9
+BITMAP: Set bit 11
+BITMAP: Set bit 13
+BITMAP: 10101010 10101011
+BITMAP: First zero bit at position: 2
+BITMAP: Next set bit after 0 is at position: 1
+BITMAP: Next set bit after 2 is at position: 3
+BITMAP: Next set bit after 6 is at position: 7
+BITMAP: Next set bit after 10 is at position: 11
+BITMAP: Next set bit after 14 is at position: 15
+BITMAP: No set bit found after position 15
+BITMAP: Cleared bit 5
+BITMAP: Cleared bit 9
+BITMAP: 10101000 10001011
+BITMAP: Bit 5 is clear
+BITMAP: Bit 9 is clear
+BITMAP: First zero bit at position: 2
+BITMAP: Set bit 2
+BITMAP: Set bit 4
+BITMAP: Set bit 6
+BITMAP: Set bit 8
+BITMAP: Set bit 10
+BITMAP: Set bit 12
+BITMAP: Set bit 14
+BITMAP: 11111101 11011111
+BITMAP: First zero bit at position: 5
+BITMAP: Bitmap empty: No
+BITMAP: Cleared bit 0
+BITMAP: Cleared bit 1
+BITMAP: Cleared bit 2
+BITMAP: Cleared bit 3
+BITMAP: Cleared bit 4
+BITMAP: Cleared bit 6
+BITMAP: Cleared bit 7
+BITMAP: Cleared bit 8
+BITMAP: Cleared bit 10
+BITMAP: Cleared bit 11
+BITMAP: Cleared bit 12
+BITMAP: Cleared bit 13
+BITMAP: Cleared bit 14
+BITMAP: Cleared bit 15
+BITMAP: 00000000 00000000
+BITMAP: Bitmap empty: Yes

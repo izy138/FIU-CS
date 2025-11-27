@@ -1,0 +1,2 @@
+Reference string = 1,0,7,1,0,2,1,2,3,0,3,2,4,0,3,0,2,1
+Number of frame = 3

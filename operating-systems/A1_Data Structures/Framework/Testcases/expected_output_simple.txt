@@ -1,0 +1,44 @@
+STACK: Pushed into stack: 10
+STACK: Top of stack: 10
+STACK: Stack empty: No
+STACK: Stack size: 1
+STACK: Stack elements from top to bottom: 10
+STACK: Popped from stack: 10
+STACK: Stack empty: Yes
+STACK: Error - Stack Empty
+QUEUE: Enqueued: 5
+QUEUE: Front of queue: 5
+QUEUE: Queue empty: No
+QUEUE: Queue size: 1
+QUEUE: Queue elements from front to rear: 5
+QUEUE: Dequeued: 5
+QUEUE: Queue empty: Yes
+QUEUE: Error - Queue Empty
+LIST: Node inserted is: 100
+LIST: List nodes are: 100
+LIST: Node 100 found
+LIST: Node 200 not found
+LIST: List empty: No
+LIST: Node deleted is: 100
+LIST: List is empty
+LIST: List empty: Yes
+LIST: List is already empty
+HEAP: Inserted element: value=30, priority=3
+HEAP: Top of heap: value=30, priority=3
+HEAP: Heap empty: No
+HEAP: Heap elements (Index[i], Value[v], Priority[p]): i->[0] v->30, p->3;
+HEAP: Extracted min: value=30, priority=3
+HEAP: Heap empty: Yes
+HEAP: Error - Heap Empty
+BITMAP: Initialized bitmap with 16 bits
+BITMAP: 00000000 00000000
+BITMAP: Bitmap empty: Yes
+BITMAP: Bitmap size: 16 bits
+BITMAP: Set bit 3
+BITMAP: Bit 3 is set
+BITMAP: Bit 5 is clear
+BITMAP: 00000000 00001000
+BITMAP: Cleared bit 3
+BITMAP: Bit 3 is clear
+BITMAP: 00000000 00000000
+BITMAP: Bitmap empty: Yes

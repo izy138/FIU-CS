@@ -1,0 +1,5 @@
+Process     Burst Time	    Priority	Arrival Time
+======================================================    
+P1          3               0           0 
+P2          3               0	        0
+P3          24              0           0     

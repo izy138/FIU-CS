@@ -1,0 +1,9 @@
+========================================
+TEST CASE 5: Mixed Burst Times (TQ=4)
+Purpose: Mix of processes with burst times both less than and greater than time quantum
+========================================
+Process     Burst Time    Priority    Arrival Time
+======================================================
+P1          3             0           0
+P2          5             0           0
+P3          2             0           0

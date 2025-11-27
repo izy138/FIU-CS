@@ -1,0 +1,50 @@
+STUDENT RECORDS
+Name: John Abraham xaxsaxa PID: FIU12345 Email: john.a@fiu.edu 123
+      Phone: 3055786541 Department: Computing                    
+          Year: Senior  sdadasd
+====================================
+Name: Maria Rodriguez qwerty PID: FIU23456     
+Email: m.rodriguez@fiu.edu                          Phone:      3059873241 abcdef
+            Department: Engineering
+Year: Junior zzzzz
+====================================
+Name: Sarah Johnson PID: FIU45678 xyz123
+    Email: sarah.johnson@fiu.edu
+
+
+Phone: 3055559876 random Department: Medicine  
+        Year: Senior
+================================
+Name: Michael Brown garbage PID: FIU56789 
+Email: mbrown@fiu.edu Phone: 3054447788 noise
+                                Department: Computer Science Year: Graduate
+================================
+Name: Lisa Wang PID: FIU67890 Email: lisa.w@fiu.edu
+
+    Phone: 3057778899 Department: Psychology Year: Freshman
+
+extra text here
+====================================
+Name: Robert Taylor PID: FIU78901 stuff
+
+
+Email: r.taylor@fiu.edu Phone: 3058889900
+
+    Department: Mathematics         Year: Junior
+
+====================================
+Name: Emily Davis   
+            PID: FIU89012 xxx
+    Email: emily.davis@fiu.edu Phone: 3053334455
+Department: Chemistry Year: Senior garbage
+
+====================================
+Name: Jessica Wilson PID: FIU90123
+Email: jessica.w@fiu.edu Phone: 3056667788 Department: Biology
+        Year: Sophomore
+
+====================================
+Name: Kevin Martinez PID: FIU01234 noise
+    Email: kevin.martinez@fiu.edu Phone: 3052223344
+Department: Physics Year: Graduate extra
+====================================
