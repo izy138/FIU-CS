@@ -1,0 +1,3 @@
+/Users/isabellacorrea/CLionProjects/SP_ImageEdit/cmake-build-debug/CMakeFiles/SP_ImageEdit.dir
+/Users/isabellacorrea/CLionProjects/SP_ImageEdit/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/isabellacorrea/CLionProjects/SP_ImageEdit/cmake-build-debug/CMakeFiles/rebuild_cache.dir

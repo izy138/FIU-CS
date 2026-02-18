@@ -1,0 +1,4 @@
+/private/var/folders/kx/zlx53krx5pb3fl74btg3kz5h0000gn/T/AppTranslocation/FE8EEF10-B237-4F66-B73E-2256CB8E6314/d/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/private/var/folders/kx/zlx53krx5pb3fl74btg3kz5h0000gn/T/AppTranslocation/FE8EEF10-B237-4F66-B73E-2256CB8E6314/d/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/isabellacorrea/CLionProjects/SPA2_CalcAge_NumGame -B /Users/isabellacorrea/CLionProjects/SPA2_CalcAge_NumGame/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/isabellacorrea/CLionProjects/SPA2_CalcAge_NumGame/cmake-build-debug

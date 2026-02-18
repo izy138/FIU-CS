@@ -1,0 +1,3 @@
+/Users/isabellacorrea/CLionProjects/SPA2_CalcAge_NumGame/cmake-build-debug/CMakeFiles/SPA2_CalcAge_NumGame.dir
+/Users/isabellacorrea/CLionProjects/SPA2_CalcAge_NumGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/isabellacorrea/CLionProjects/SPA2_CalcAge_NumGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
