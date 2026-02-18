@@ -1,0 +1,35 @@
+Starting TCP Command Server...
+Server: Listening on port 8080...
+Server: Waiting for client connection...
+Server: Connected to client 127.0.0.1:XXXXX
+Server: Received command: true
+Server: Child <PID> started for command: true
+Child <PID>: Executing command: true
+Server: Child <PID> completed
+Server: Received command: eco hello
+Server: Child <PID> started for command: eco hello
+Child <PID>: Executing command: eco hello
+sh: 1: eco: not found
+Server: Child <PID> completed
+Server: Received command: echo hello
+Server: Child <PID> started for command: echo hello
+Child <PID>: Executing command: echo hello
+hello
+Server: Child <PID> completed
+Server: Received command: /bin/nosuchcommand
+Server: Child <PID> started for command: /bin/nosuchcommand
+Child <PID>: Executing command: /bin/nosuchcommand
+sh: 1: /bin/nosuchcommand: not found
+Server: Child <PID> completed
+Server: Client 127.0.0.1:XXXXX disconnected
+Server: Shutting down
+Client: Connected to server
+Client: Sending command: true
+Client: Received: Command 'true' completed successfully
+Client: Sending command: eco hello
+Client: Received: Command 'eco hello' failed
+Client: Sending command: echo hello
+Client: Received: Command 'echo hello' completed successfully
+Client: Sending command: /bin/nosuchcommand
+Client: Received: Command '/bin/nosuchcommand' failed
+Client: Disconnected from server

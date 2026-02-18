@@ -1,0 +1,9 @@
+========================================
+TEST CASE 4: Large Gaps - CPU Idle (TQ=4)
+Purpose: Test CPU idle time handling with large gaps between process arrivals
+========================================
+Process     Burst Time    Priority    Arrival Time
+======================================================
+P1          3             0           0
+P2          4             0           15
+P3          2             0           25

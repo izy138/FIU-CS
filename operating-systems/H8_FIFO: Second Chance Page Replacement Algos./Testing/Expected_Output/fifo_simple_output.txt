@@ -1,0 +1,21 @@
+FIFO Page Replacement Algorithm
+-------------------------------
+Page 7 loaded. Page fault occurred. Frames: [ 7  _  _ ]
+Page 0 loaded. Page fault occurred. Frames: [ 7  0  _ ]
+Page 1 loaded. Page fault occurred. Frames: [ 7  0  1 ]
+Page 2 loaded. Page fault occurred. Frames: [ 2  0  1 ]
+Page 0 already in memory. No page fault. Frames: [ 2  0  1 ]
+Page 3 loaded. Page fault occurred. Frames: [ 2  3  1 ]
+Page 0 loaded. Page fault occurred. Frames: [ 2  3  0 ]
+Page 2 already in memory. No page fault. Frames: [ 2  3  0 ]
+Page 0 already in memory. No page fault. Frames: [ 2  3  0 ]
+Page 4 loaded. Page fault occurred. Frames: [ 4  3  0 ]
+Page 0 already in memory. No page fault. Frames: [ 4  3  0 ]
+Page 2 loaded. Page fault occurred. Frames: [ 4  2  0 ]
+
+FIFO Summary
+==============
+Reference String: 7 0 1 2 0 3 0 2 0 4 0 2
+Page Faults:      Y Y Y Y N Y Y N N Y N Y
+Total Page Faults: 8
+Hit Ratio (Number_of_Page_Hits / Total_Number_of_Pages): 33.33%

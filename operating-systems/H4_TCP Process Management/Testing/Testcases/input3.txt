@@ -1,0 +1,23 @@
+#------------------------------------------------------------------------------------------#
+# Test Case 3: Mixed Valid/Invalid Commands                                                #
+# This test verifies that your implementation correctly handles a mix of valid and invalid #
+# commands, and continues execution without terminating prematurely.                       #
+#                                                                                          #
+# ⚠️ IMPORTANT NOTE: Your TCP server implementation must use system() to execute commands  #
+# received from the client. It should NOT capture or send the actual command output back   #
+# to the client. Instead, it must only send status messages indicating whether the command #
+# completed successfully or failed with an error code.                                     #
+#------------------------------------------------------------------------------------------#
+
+
+# Valid: Always succeeds
+true
+
+# Invalid: Common typo, won't exist
+eco hello
+
+# Valid: Simple text output, highly portable
+echo hello
+
+# Invalid: Non-existent path
+/bin/nosuchcommand

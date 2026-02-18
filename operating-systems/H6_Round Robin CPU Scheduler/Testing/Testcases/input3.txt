@@ -1,0 +1,9 @@
+========================================
+TEST CASE 3: Arrival at TQ Boundary (TQ=4)
+Purpose: New process arrives exactly when current process's time quantum expires
+========================================
+Process     Burst Time    Priority    Arrival Time
+======================================================
+P1          7             0           0
+P2          5             0           4
+P3          3             0           8

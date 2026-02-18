@@ -1,0 +1,10 @@
+========================================
+TEST CASE 2: Different Arrival Times (TQ=4)
+Purpose: Processes arriving at different times with large gaps causing CPU idle periods
+========================================
+Process     Burst Time    Priority    Arrival Time
+======================================================
+P1          6             0           0
+P2          5             0           2
+P3          4             0           12
+P4          3             0           17

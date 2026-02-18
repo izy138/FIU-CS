@@ -1,0 +1,59 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack operations - Simple
+// Testing basic stack operations
+PUSH 10
+PEEK_STACK
+IS_STACK_EMPTY
+STACK_SIZE
+LIST_STACK_ELEMENTS
+POP
+IS_STACK_EMPTY
+LIST_STACK_ELEMENTS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Circular Queue operations - Simple
+// Testing basic queue operations
+ENQUEUE 5
+PEEK_QUEUE
+IS_QUEUE_EMPTY
+QUEUE_SIZE
+LIST_QUEUE_ELEMENTS
+DEQUEUE
+IS_QUEUE_EMPTY
+LIST_QUEUE_ELEMENTS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Circular Linked List operations - Simple
+// Testing basic linked list operations
+INSERT_NODE 100
+ITERATE_LIST
+SEARCH_NODE 100
+SEARCH_NODE 200
+IS_LIST_EMPTY
+DELETE_NODE 100
+ITERATE_LIST
+IS_LIST_EMPTY
+FREE_LIST
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Min Heap operations - Simple
+// Testing basic heap operations
+INSERT_ELEMENT 30 3
+PEEK_HEAP
+IS_HEAP_EMPTY
+LIST_HEAP_ELEMENTS
+EXTRACT_MIN
+IS_HEAP_EMPTY
+LIST_HEAP_ELEMENTS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Bitmap operations - Simple
+// Testing basic bitmap operations
+INIT_BITMAP 16
+PRINT_BITMAP
+IS_BITMAP_EMPTY
+BITMAP_SIZE
+SET_BIT 3
+TEST_BIT 3
+TEST_BIT 5
+PRINT_BITMAP
+CLEAR_BIT 3
+TEST_BIT 3
+PRINT_BITMAP
+IS_BITMAP_EMPTY

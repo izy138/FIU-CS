@@ -1,0 +1,145 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack operations - Moderate
+// Testing multiple push operations
+PUSH 10
+PUSH 20
+PUSH 30
+PEEK_STACK
+IS_STACK_EMPTY
+IS_STACK_FULL
+STACK_SIZE
+LIST_STACK_ELEMENTS
+// Testing multiple pop operations
+POP
+PEEK_STACK
+POP
+STACK_SIZE
+LIST_STACK_ELEMENTS
+POP
+IS_STACK_EMPTY
+LIST_STACK_ELEMENTS
+// Testing push after empty
+PUSH 40
+PEEK_STACK
+IS_STACK_EMPTY
+STACK_SIZE
+LIST_STACK_ELEMENTS
+POP
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Circular Queue operations - Moderate
+// Testing multiple enqueue operations
+ENQUEUE 5
+ENQUEUE 15
+ENQUEUE 25
+PEEK_QUEUE
+IS_QUEUE_EMPTY
+IS_QUEUE_FULL
+QUEUE_SIZE
+LIST_QUEUE_ELEMENTS
+// Testing multiple dequeue operations
+DEQUEUE
+PEEK_QUEUE
+DEQUEUE
+QUEUE_SIZE
+LIST_QUEUE_ELEMENTS
+DEQUEUE
+IS_QUEUE_EMPTY
+LIST_QUEUE_ELEMENTS
+// Testing enqueue after empty
+ENQUEUE 35
+PEEK_QUEUE
+IS_QUEUE_EMPTY
+QUEUE_SIZE
+LIST_QUEUE_ELEMENTS
+DEQUEUE
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Circular Linked List operations - Moderate
+// Testing multiple node insertions
+INSERT_NODE 100
+INSERT_NODE 200
+INSERT_NODE 300
+ITERATE_LIST
+IS_LIST_EMPTY
+// Testing search for different nodes
+SEARCH_NODE 100
+SEARCH_NODE 200
+SEARCH_NODE 300
+SEARCH_NODE 400
+// Testing node deletion
+DELETE_NODE 200
+ITERATE_LIST
+DELETE_NODE 100
+ITERATE_LIST
+DELETE_NODE 300
+IS_LIST_EMPTY
+// Testing insertion after empty
+INSERT_NODE 500
+ITERATE_LIST
+FREE_LIST
+IS_LIST_EMPTY
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Min Heap operations - Moderate
+// Testing multiple element insertions
+INSERT_ELEMENT 30 3
+INSERT_ELEMENT 20 2
+INSERT_ELEMENT 40 4
+IS_HEAP_EMPTY
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+// Testing extract min
+EXTRACT_MIN
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+// Testing decrease key
+DECREASE_KEY 1 1
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+// Testing remove element
+REMOVE_ELEMENT 0
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+EXTRACT_MIN
+IS_HEAP_EMPTY
+LIST_HEAP_ELEMENTS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Bitmap operations - Moderate
+// Testing bitmap initialization and multiple operations
+INIT_BITMAP 16
+PRINT_BITMAP
+IS_BITMAP_EMPTY
+BITMAP_SIZE
+// Testing multiple bit operations across byte boundaries
+SET_BIT 1
+SET_BIT 4
+SET_BIT 8
+SET_BIT 15
+PRINT_BITMAP
+TEST_BIT 1
+TEST_BIT 4
+TEST_BIT 7
+TEST_BIT 8
+TEST_BIT 15
+// Testing find operations
+FIND_FIRST_ZERO_BIT
+FIND_NEXT_SET_BIT 1
+FIND_NEXT_SET_BIT 5
+FIND_NEXT_SET_BIT 10
+// Testing clear operations and state changes
+CLEAR_BIT 4
+CLEAR_BIT 8
+PRINT_BITMAP
+TEST_BIT 4
+TEST_BIT 8
+FIND_FIRST_ZERO_BIT
+// Testing bitmap state after modifications
+IS_BITMAP_EMPTY
+BITMAP_SIZE
+// Testing pattern with alternating bits
+SET_BIT 2
+SET_BIT 6
+SET_BIT 10
+SET_BIT 14
+PRINT_BITMAP
+FIND_NEXT_SET_BIT 0
+FIND_NEXT_SET_BIT 3
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

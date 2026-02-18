@@ -1,0 +1,14 @@
+##############################################################################################################
+# Banker's Algorithm Test Cases – SIMPLE LEVEL
+# Test Types: SAFETY_CHECK or REQUEST
+# REQUEST format: <ThreadID, R0, R1, R2, ...>
+# Negative values in a REQUEST (e.g., 2 -2 -1 -1) indicate resource release by the thread T2.
+# Example: Thread 2 releases 2 units of R0, 1 unit of R1, and 1 unit of R2.
+# Lines starting with '#' are comments.
+##############################################################################################################
+
+# Test Case 1: Valid request
+REQUEST 0 2 1 0
+
+# Test Case 2: Request exceeds need (request denied!)
+REQUEST 1 3 3 3

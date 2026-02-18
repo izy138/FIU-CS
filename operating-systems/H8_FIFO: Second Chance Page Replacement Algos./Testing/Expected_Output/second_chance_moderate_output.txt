@@ -1,0 +1,30 @@
+
+Second Chance (Clock) Page Replacement Algorithm
+----------------------------------------------
+Page 7 loaded into empty frame. Frames: [ 7  _  _  _ ]
+Page 0 loaded into empty frame. Frames: [ 7  0  _  _ ]
+Page 1 loaded into empty frame. Frames: [ 7  0  1  _ ]
+Page 2 loaded into empty frame. Frames: [ 7  0  1  2 ]
+Page 0 already in memory. Reference bit set. Frames: [ 7  0  1  2 ]
+Page 3 replaces page with reference bit 0. Frames: [ 3  0  1  2 ]
+Page 0 already in memory. Reference bit set. Frames: [ 3  0  1  2 ]
+Page 4 replaces page with reference bit 0. Frames: [ 3  0  4  2 ]
+Page 2 already in memory. Reference bit set. Frames: [ 3  0  4  2 ]
+Page 3 already in memory. Reference bit set. Frames: [ 3  0  4  2 ]
+Page 0 already in memory. Reference bit set. Frames: [ 3  0  4  2 ]
+Page 3 already in memory. Reference bit set. Frames: [ 3  0  4  2 ]
+Page 2 already in memory. Reference bit set. Frames: [ 3  0  4  2 ]
+Page 1 replaces page with reference bit 0. Frames: [ 3  0  4  1 ]
+Page 2 replaces page with reference bit 0. Frames: [ 2  0  4  1 ]
+Page 0 already in memory. Reference bit set. Frames: [ 2  0  4  1 ]
+Page 1 already in memory. Reference bit set. Frames: [ 2  0  4  1 ]
+Page 7 replaces page with reference bit 0. Frames: [ 2  0  7  1 ]
+Page 0 already in memory. Reference bit set. Frames: [ 2  0  7  1 ]
+Page 1 already in memory. Reference bit set. Frames: [ 2  0  7  1 ]
+
+Second Chance Summary
+======================
+Reference String: 7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1 
+Page Faults:      Y Y Y Y N Y N Y N N N N N Y Y N N Y N N 
+Total Page Faults: 9
+Hit Ratio (Number_of_Page_Hits / Total_Number_of_Pages): 55.00%

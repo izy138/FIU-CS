@@ -1,0 +1,301 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack operations - Rigorous
+// Testing stack to capacity
+PUSH 10
+PUSH 20
+PUSH 30
+PUSH 40
+PUSH 50
+PUSH 60
+PUSH 70
+PUSH 80
+PUSH 90
+PUSH 100
+IS_STACK_FULL
+STACK_SIZE
+LIST_STACK_ELEMENTS
+// Attempt overflow (assuming MAX_SIZE is 10)
+PUSH 110
+// Test peek without changing stack
+PEEK_STACK
+PEEK_STACK
+// Empty the stack partially and check state
+POP
+POP
+POP
+POP
+POP
+STACK_SIZE
+IS_STACK_EMPTY
+IS_STACK_FULL
+LIST_STACK_ELEMENTS
+// Empty the stack completely
+POP
+POP
+POP
+POP
+POP
+STACK_SIZE
+IS_STACK_EMPTY
+LIST_STACK_ELEMENTS
+// Test underflow
+POP
+// Test operations on empty stack
+PEEK_STACK
+// Test refilling and mixed operations
+PUSH 11
+PUSH 22
+LIST_STACK_ELEMENTS
+POP
+PUSH 33
+PEEK_STACK
+STACK_SIZE
+IS_STACK_EMPTY
+IS_STACK_FULL
+LIST_STACK_ELEMENTS
+POP
+POP
+IS_STACK_EMPTY
+LIST_STACK_ELEMENTS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Circular Queue operations - Rigorous
+// Testing queue to capacity (assuming MAX_SIZE is 10)
+ENQUEUE 5
+ENQUEUE 15
+ENQUEUE 25
+ENQUEUE 35
+ENQUEUE 45
+ENQUEUE 55
+ENQUEUE 65
+ENQUEUE 75
+ENQUEUE 85
+ENQUEUE 95
+IS_QUEUE_FULL
+QUEUE_SIZE
+LIST_QUEUE_ELEMENTS
+// Attempt overflow
+ENQUEUE 105
+// Test peek without changing queue
+PEEK_QUEUE
+PEEK_QUEUE
+// Empty the queue partially and check state
+DEQUEUE
+DEQUEUE
+DEQUEUE
+DEQUEUE
+DEQUEUE
+QUEUE_SIZE
+IS_QUEUE_EMPTY
+IS_QUEUE_FULL
+LIST_QUEUE_ELEMENTS
+// Empty the queue completely
+DEQUEUE
+DEQUEUE
+DEQUEUE
+DEQUEUE
+DEQUEUE
+QUEUE_SIZE
+IS_QUEUE_EMPTY
+LIST_QUEUE_ELEMENTS
+// Test underflow
+DEQUEUE
+// Test operations on empty queue
+PEEK_QUEUE
+// Test circular behavior: fill, partially empty, then refill
+ENQUEUE 10
+ENQUEUE 20
+ENQUEUE 30
+ENQUEUE 40
+LIST_QUEUE_ELEMENTS
+DEQUEUE
+DEQUEUE
+ENQUEUE 50
+ENQUEUE 60
+QUEUE_SIZE
+PEEK_QUEUE
+IS_QUEUE_EMPTY
+IS_QUEUE_FULL
+LIST_QUEUE_ELEMENTS
+// Empty again
+DEQUEUE
+DEQUEUE
+DEQUEUE
+DEQUEUE
+IS_QUEUE_EMPTY
+LIST_QUEUE_ELEMENTS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Circular Linked List operations - Rigorous
+// Test inserting many nodes
+INSERT_NODE 100
+INSERT_NODE 200
+INSERT_NODE 300
+INSERT_NODE 400
+INSERT_NODE 500
+ITERATE_LIST
+IS_LIST_EMPTY
+// Test searching for various nodes (existing and non-existing)
+SEARCH_NODE 100
+SEARCH_NODE 300
+SEARCH_NODE 500
+SEARCH_NODE 600
+// Test deleting from various positions
+DELETE_NODE 300  // Middle node
+ITERATE_LIST
+DELETE_NODE 100  // First node
+ITERATE_LIST
+DELETE_NODE 500  // Last node
+ITERATE_LIST
+// Test deleting non-existent node
+DELETE_NODE 700
+ITERATE_LIST
+// Test deleting until empty
+DELETE_NODE 200
+DELETE_NODE 400
+IS_LIST_EMPTY
+// Test operations on empty list
+SEARCH_NODE 200
+ITERATE_LIST
+DELETE_NODE 200
+// Test reinsertion after emptying
+INSERT_NODE 1000
+INSERT_NODE 2000
+ITERATE_LIST
+IS_LIST_EMPTY
+// Test freeing the list
+FREE_LIST
+IS_LIST_EMPTY
+// Test operations after freeing
+SEARCH_NODE 1000
+INSERT_NODE 3000
+ITERATE_LIST
+FREE_LIST
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Min Heap operations - Rigorous
+// Test inserting many elements with various priorities
+INSERT_ELEMENT 50 5
+INSERT_ELEMENT 30 3
+INSERT_ELEMENT 20 2
+INSERT_ELEMENT 40 4
+INSERT_ELEMENT 10 1
+INSERT_ELEMENT 60 6
+INSERT_ELEMENT 70 7
+INSERT_ELEMENT 80 8
+IS_HEAP_EMPTY
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+// Test extract min repeatedly and check heap state
+EXTRACT_MIN
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+EXTRACT_MIN
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+// Test decrease key at different positions
+DECREASE_KEY 3 0  // Decrease to make it the new min
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+DECREASE_KEY 2 9  // Increase (should be rejected or handled)
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+// Test remove element from different positions
+REMOVE_ELEMENT 0  // Remove root
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+REMOVE_ELEMENT 2  // Remove from middle
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+// Test edge cases - empty the heap
+EXTRACT_MIN
+EXTRACT_MIN
+EXTRACT_MIN
+EXTRACT_MIN
+IS_HEAP_EMPTY
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+// Test insertions after emptying
+INSERT_ELEMENT 25 2
+INSERT_ELEMENT 15 1
+IS_HEAP_EMPTY
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+// Test mixed operations
+EXTRACT_MIN
+INSERT_ELEMENT 35 3
+DECREASE_KEY 0 0
+PEEK_HEAP
+LIST_HEAP_ELEMENTS
+REMOVE_ELEMENT 0
+IS_HEAP_EMPTY
+LIST_HEAP_ELEMENTS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Bitmap operations - Rigorous
+// Testing comprehensive bitmap functionality with edge cases
+INIT_BITMAP 16
+PRINT_BITMAP
+IS_BITMAP_EMPTY
+BITMAP_SIZE
+// Test boundary conditions - first and last bits
+SET_BIT 0
+SET_BIT 15
+TEST_BIT 0
+TEST_BIT 15
+PRINT_BITMAP
+// Test error conditions - invalid indices
+TEST_BIT -1
+TEST_BIT 16
+SET_BIT -1
+SET_BIT 16
+CLEAR_BIT -1
+CLEAR_BIT 16
+// Test multiple bit patterns across bytes
+SET_BIT 1
+SET_BIT 3
+SET_BIT 5
+SET_BIT 7
+SET_BIT 9
+SET_BIT 11
+SET_BIT 13
+PRINT_BITMAP
+// Test all find operations extensively
+FIND_FIRST_ZERO_BIT
+FIND_NEXT_SET_BIT 0
+FIND_NEXT_SET_BIT 2
+FIND_NEXT_SET_BIT 6
+FIND_NEXT_SET_BIT 10
+FIND_NEXT_SET_BIT 14
+FIND_NEXT_SET_BIT 15
+// Test clearing specific bits and verify state
+CLEAR_BIT 5
+CLEAR_BIT 9
+PRINT_BITMAP
+TEST_BIT 5
+TEST_BIT 9
+FIND_FIRST_ZERO_BIT
+// Test pattern modifications
+SET_BIT 2
+SET_BIT 4
+SET_BIT 6
+SET_BIT 8
+SET_BIT 10
+SET_BIT 12
+SET_BIT 14
+PRINT_BITMAP
+FIND_FIRST_ZERO_BIT
+IS_BITMAP_EMPTY
+// Test edge case: completely empty bitmap
+CLEAR_BIT 0
+CLEAR_BIT 1
+CLEAR_BIT 2
+CLEAR_BIT 3
+CLEAR_BIT 4
+CLEAR_BIT 6
+CLEAR_BIT 7
+CLEAR_BIT 8
+CLEAR_BIT 10
+CLEAR_BIT 11
+CLEAR_BIT 12
+CLEAR_BIT 13
+CLEAR_BIT 14
+CLEAR_BIT 15
+PRINT_BITMAP
+IS_BITMAP_EMPTY
